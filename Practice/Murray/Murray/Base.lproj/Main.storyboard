@@ -18,35 +18,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jamal Murray" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqi-KM-bxu">
-                                <rect key="frame" x="91" y="114" width="232" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Jamal Murray" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqi-KM-bxu">
+                                <rect key="frame" x="103" y="94" width="231.5" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fql-7K-vts">
-                                <rect key="frame" x="297" y="225" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Home Jersey"/>
-                                <connections>
-                                    <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mQo-NH-WZY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VA7-nW-ox7">
-                                <rect key="frame" x="13" y="224" width="114" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Mile High Jersey"/>
-                                <connections>
-                                    <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q04-8V-XzL"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="yai-nM-BxQ">
-                                <rect key="frame" x="31" y="280" width="352" height="525"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="yai-nM-BxQ">
+                                <rect key="frame" x="31" y="268" width="352" height="507"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yai-nM-BxQ" secondAttribute="height" multiplier="352:525" id="ta5-iw-9ZU"/>
+                                </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="148" translatesAutoresizingMaskIntoConstraints="NO" id="1fk-V9-VTq">
+                                <rect key="frame" x="31" y="194" width="352" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VA7-nW-ox7">
+                                        <rect key="frame" x="0.0" y="0.0" width="114" height="30"/>
+                                        <state key="normal" title="Mile High Jersey"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q04-8V-XzL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fql-7K-vts">
+                                        <rect key="frame" x="262" y="0.0" width="90" height="30"/>
+                                        <state key="normal" title="Home Jersey"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mQo-NH-WZY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1fk-V9-VTq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0fS-3E-CjY"/>
+                            <constraint firstItem="1fk-V9-VTq" firstAttribute="top" secondItem="eqi-KM-bxu" secondAttribute="bottom" constant="25" id="KJO-jX-dSU"/>
+                            <constraint firstItem="yai-nM-BxQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W42-Nd-hoo"/>
+                            <constraint firstItem="yai-nM-BxQ" firstAttribute="top" secondItem="1fk-V9-VTq" secondAttribute="bottom" constant="25" id="dNm-2y-Q85"/>
+                            <constraint firstItem="yai-nM-BxQ" firstAttribute="top" secondItem="1fk-V9-VTq" secondAttribute="bottom" constant="26" id="uTC-N5-Kar"/>
+                            <constraint firstItem="eqi-KM-bxu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vhG-DH-yFC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
