@@ -24,14 +24,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="yai-nM-BxQ">
-                                <rect key="frame" x="31" y="268" width="352" height="507"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="yai-nM-BxQ" secondAttribute="height" multiplier="352:525" id="ta5-iw-9ZU"/>
-                                </constraints>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="148" translatesAutoresizingMaskIntoConstraints="NO" id="1fk-V9-VTq">
-                                <rect key="frame" x="31" y="194" width="352" height="30"/>
+                                <rect key="frame" x="31" y="166" width="352" height="30"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VA7-nW-ox7">
                                         <rect key="frame" x="0.0" y="0.0" width="114" height="30"/>
@@ -49,6 +43,12 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="yai-nM-BxQ">
+                                <rect key="frame" x="31" y="264" width="352" height="507"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yai-nM-BxQ" secondAttribute="height" multiplier="352:525" id="ta5-iw-9ZU"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
