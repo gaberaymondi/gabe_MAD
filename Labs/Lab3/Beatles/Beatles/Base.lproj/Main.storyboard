@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,15 +15,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Beatles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="jlO-Qq-iJ4">
-                                <rect key="frame" x="0.0" y="442" width="779.5" height="185"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Beatles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agp-Cn-BGQ">
+                                <rect key="frame" x="124" y="330" width="127.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jlO-Qq-iJ4">
+                                <rect key="frame" x="58.5" y="396" width="258.5" height="129"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uzY-1G-Eya">
-                                        <rect key="frame" x="0.0" y="0.0" width="779.5" height="29"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="258.5" height="29"/>
                                         <segments>
                                             <segment title="Early 60's"/>
                                             <segment title="Late 60's"/>
@@ -32,25 +37,25 @@
                                             <action selector="changeInfo:" destination="BYZ-38-t0r" eventType="valueChanged" id="vUV-KJ-auI"/>
                                         </connections>
                                     </segmentedControl>
-                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="224" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="G7E-vh-66H">
-                                        <rect key="frame" x="0.0" y="76" width="779.5" height="31"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Mkp-sS-PWQ">
+                                        <rect key="frame" x="0.0" y="48" width="258.5" height="31"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capitalization" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SS-Yi-fbt">
-                                                <rect key="frame" x="0.0" y="0.0" width="723.5" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="159.5" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="H7R-Uc-G1G">
-                                                <rect key="frame" x="730.5" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="209.5" y="0.0" width="51" height="31"/>
                                                 <connections>
                                                     <action selector="updateFont:" destination="BYZ-38-t0r" eventType="valueChanged" id="95h-3F-Bsu"/>
                                                 </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="wzd-VN-i5w">
-                                        <rect key="frame" x="0.0" y="155" width="779.5" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wzd-VN-i5w">
+                                        <rect key="frame" x="0.0" y="99" width="258.5" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmf-dd-RAA">
                                                 <rect key="frame" x="0.0" y="0.0" width="15.5" height="30"/>
@@ -59,7 +64,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="11" minValue="8" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="V27-Dt-Jnp">
-                                                <rect key="frame" x="57.5" y="0.0" width="724" height="31"/>
+                                                <rect key="frame" x="33.5" y="0.0" width="227" height="31"/>
                                                 <connections>
                                                     <action selector="changeFontSize:" destination="BYZ-38-t0r" eventType="valueChanged" id="BTD-59-Uiv"/>
                                                 </connections>
@@ -68,19 +73,23 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="753" fixedFrame="YES" image="Road" highlightedImage="Road" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pU9-wz-dIV" userLabel="Beatles_Abbey_Road">
-                                <rect key="frame" x="45" y="62" width="324" height="284"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="753" misplaced="YES" image="Road" highlightedImage="Road" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pU9-wz-dIV" userLabel="Beatles_Abbey_Road">
+                                <rect key="frame" x="286" y="18" width="324" height="284"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="324" id="DXJ-Bd-zw9"/>
+                                    <constraint firstAttribute="height" constant="284" id="xVI-qO-IDK"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Beatles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agp-Cn-BGQ">
-                                <rect key="frame" x="133" y="354" width="127.5" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <constraints>
+                            <constraint firstItem="jlO-Qq-iJ4" firstAttribute="top" secondItem="agp-Cn-BGQ" secondAttribute="bottom" constant="36" id="5ex-t4-w6a"/>
+                            <constraint firstItem="agp-Cn-BGQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O2Q-sV-pGS"/>
+                            <constraint firstItem="jlO-Qq-iJ4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XPB-lM-auf"/>
+                            <constraint firstItem="pU9-wz-dIV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b0G-RQ-aME"/>
+                            <constraint firstItem="agp-Cn-BGQ" firstAttribute="top" secondItem="pU9-wz-dIV" secondAttribute="bottom" constant="16" id="fTb-aT-jUk"/>
+                            <constraint firstItem="pU9-wz-dIV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="xt2-dB-yIi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
