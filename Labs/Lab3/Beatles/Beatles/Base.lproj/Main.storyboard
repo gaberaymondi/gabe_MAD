@@ -25,10 +25,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jlO-Qq-iJ4">
-                                <rect key="frame" x="58.5" y="396" width="258.5" height="129"/>
+                                <rect key="frame" x="30.5" y="396" width="314.5" height="129"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uzY-1G-Eya">
-                                        <rect key="frame" x="0.0" y="0.0" width="258.5" height="29"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="314.5" height="29"/>
                                         <segments>
                                             <segment title="Early 60's"/>
                                             <segment title="Late 60's"/>
@@ -38,16 +38,16 @@
                                         </connections>
                                     </segmentedControl>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Mkp-sS-PWQ">
-                                        <rect key="frame" x="0.0" y="48" width="258.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="48" width="314.5" height="31"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capitalization" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SS-Yi-fbt">
-                                                <rect key="frame" x="0.0" y="0.0" width="159.5" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="215.5" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="H7R-Uc-G1G">
-                                                <rect key="frame" x="209.5" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="265.5" y="0.0" width="51" height="31"/>
                                                 <connections>
                                                     <action selector="updateFont:" destination="BYZ-38-t0r" eventType="valueChanged" id="95h-3F-Bsu"/>
                                                 </connections>
@@ -55,7 +55,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wzd-VN-i5w">
-                                        <rect key="frame" x="0.0" y="99" width="258.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="99" width="314.5" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmf-dd-RAA">
                                                 <rect key="frame" x="0.0" y="0.0" width="15.5" height="30"/>
@@ -64,7 +64,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="11" minValue="8" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="V27-Dt-Jnp">
-                                                <rect key="frame" x="33.5" y="0.0" width="227" height="31"/>
+                                                <rect key="frame" x="33.5" y="0.0" width="283" height="31"/>
                                                 <connections>
                                                     <action selector="changeFontSize:" destination="BYZ-38-t0r" eventType="valueChanged" id="BTD-59-Uiv"/>
                                                 </connections>
@@ -74,7 +74,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="753" misplaced="YES" image="Road" highlightedImage="Road" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pU9-wz-dIV" userLabel="Beatles_Abbey_Road">
-                                <rect key="frame" x="286" y="18" width="324" height="284"/>
+                                <rect key="frame" x="25" y="29" width="324" height="284"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="324" id="DXJ-Bd-zw9"/>
                                     <constraint firstAttribute="height" constant="284" id="xVI-qO-IDK"/>

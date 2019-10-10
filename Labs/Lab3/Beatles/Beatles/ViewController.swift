@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var beatlesImage: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var imageControl: UISegmentedControl!
+    @IBOutlet weak var imageControl:UISegmentedControl!
     @IBOutlet weak var fontSizeLabel: UILabel!
     @IBOutlet weak var fontSizeNumber: UILabel!
     @IBOutlet weak var captialSwitch: UISwitch!
