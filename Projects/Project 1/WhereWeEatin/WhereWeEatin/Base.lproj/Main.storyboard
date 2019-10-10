@@ -54,6 +54,9 @@
                                 <state key="normal" title="EAT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="letsEat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kbS-H8-czX"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="5" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="7HK-aJ-R0G">
                                 <rect key="frame" x="201" y="554" width="195" height="30"/>

@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func letsEat(_ sender: AnyObject) {
+        if let url = NSURL(string: "https://order.noodles.com/"){
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
     
     @IBAction func selectRestaurant(_ sender: Any) {
         foodType()
