@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //Learned how to attach a hyperlink to a button from the following link https://stackoverflow.com/questions/26938495/make-button-hyperlink-swift
     @IBAction func letsEat(_ sender: AnyObject) {
         if let url = NSURL(string: "https://order.noodles.com/"){
             UIApplication.shared.openURL(url as URL)
