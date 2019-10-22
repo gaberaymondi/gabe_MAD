@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  MusicApp
+//  Playlist
 //
 //  Created by Gabe Raymondi on 10/21/19.
 //  Copyright © 2019 Gabe Raymondi. All rights reserved.
