@@ -45,7 +45,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     
     func computeCommute() {
         //compute and update the total commute time
-        while showMonthlyCommute.isOn {
+        if showMonthlyCommute.isOn {
             if imageControl.selectedSegmentIndex == 0 {
                 var miles:Float //round trip commute miles
                 var gas:Float //gas left in tank
@@ -200,7 +200,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     }
     
     override func viewDidLoad() {
-        //totalDistance.delegate=self
+        totalDistance.delegate=self
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
