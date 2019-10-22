@@ -12,7 +12,8 @@ class Scene2ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var userSong: UITextField!
     @IBOutlet weak var userArtist: UITextField!
-
+    @IBOutlet weak var userAlbulm: UITextField!
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "finPlaylist"{
             let scene1ViewController = segue.destination as! ViewController
@@ -22,12 +23,16 @@ class Scene2ViewController: UIViewController, UITextFieldDelegate {
             if userArtist.text!.isEmpty == false{
                 scene1ViewController.user.selectArtist=userArtist.text
             }
+            if userAlbulm.text!.isEmpty == false{
+                scene1ViewController.user.selectAlbulm=userAlbulm.text
+            }
         }
     }
     
     override func viewDidLoad() {
         userSong.delegate=self
         userArtist.delegate=self
+        userAlbulm.delegate=self
         super.viewDidLoad()
     }
 

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  favorites
+//  playlist
 //
-//  Created by Aileen Pierce
-//  Copyright (c) Aileen Pierce. All rights reserved.
+//  Created by Gabe Raymondi
+//  Copyright (c) Gabe Raymondi. All rights reserved.
 //
 
 import UIKit
