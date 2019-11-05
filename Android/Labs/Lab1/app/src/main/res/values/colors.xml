@@ -5,12 +5,12 @@
     <color name="colorAccent">#D81B60</color>
     <color name="background">#ff9640</color>
 
-    <color name="primaryColor">#E49229</color>
-    <color name="primaryLightColor">#ffc046</color>
-    <color name="primaryDarkColor">#c56000</color>
-    <color name="secondaryColor">#6d4c41</color>
-    <color name="secondaryLightColor">#9c786c</color>
-    <color name="secondaryDarkColor">#40241a</color>
+    <color name="primaryColor">#fcfafa</color>
+    <color name="primaryLightColor">#5772FF</color>
+    <color name="primaryDarkColor">#112358</color>
+    <color name="secondaryColor">#980404</color>
+    <color name="secondaryLightColor">#FCFAFA</color>
+    <color name="secondaryDarkColor">#980404</color>
     <color name="primaryTextColor">#000000</color>
     <color name="secondaryTextColor">#ffffff</color>
 

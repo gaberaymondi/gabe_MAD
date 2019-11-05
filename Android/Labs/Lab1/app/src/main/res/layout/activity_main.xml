@@ -7,20 +7,28 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/Button"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="nbaChampion"
         android:text="Click"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
         tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="212dp" />
+        tools:layout_editor_absoluteY="176dp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="394dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_width="197dp"
+        android:layout_height="465dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message"
+        tools:layout_editor_absoluteX="123dp"
+        tools:srcCompat="@drawable/n" />
 
     <EditText
         android:id="@+id/editText"
@@ -29,14 +37,21 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Enter Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="153dp" />
+        tools:layout_editor_absoluteY="116dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="lol"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="328dp" />
+        android:layout_marginTop="32dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
