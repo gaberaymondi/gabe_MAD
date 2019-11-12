@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Holiday Season</string>
+    <string name="heading">Holiday Gift Shopping</string>
+    <string name="gift_button">Find Gift</string>
+    <string name="toggle_on">Snow</string>
+    <string name="toggle_off">No Snow</string>
+    <string name="type">Gift Type</string>
+    <string name="forwho">Gift For</string>
+    <string-array name="giftType">
+        <item>Clothes</item>
+        <item>Tech</item>
+        <item>General Merchandise</item>
+    </string-array>
+    <string name="radio1">Parent</string>
+    <string name="radio2">Child</string>
+    <string name="radio3">Sibling</string>
+    <string name="funny">Funny</string>
+    <string name="caring">Caring</string>
+    <string name="big">Big</string>
+    <string name="small">Small</string>
+</resources>
