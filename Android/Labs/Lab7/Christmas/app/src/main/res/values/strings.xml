@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Christmas Shopping</string>
+    <string name="heading">Season of Giving</string>
+    <string name="sport_button">Find Gift</string>
+    <string name="toggle_on">Snowing</string>
+    <string name="toggle_off">Not Snowing</string>
+    <string-array name="exercise">
+        <item>parent</item>
+        <item>sibling</item>
+        <item>friend</item>
+    </string-array>
+    <string name="radio1">$</string>
+    <string name="radio2">$$</string>
+    <string name="radio3">$$$</string>
+    <string name="funny">Funny</string>
+    <string name="caring">Caring</string>
+    <string name="big">Big</string>
+    <string name="small">Small</string>
+</resources>
