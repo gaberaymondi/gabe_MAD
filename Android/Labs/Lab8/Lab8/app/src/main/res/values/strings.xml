@@ -15,5 +15,5 @@
     <string name="title_activity_shoe">ShoeActivity</string>
     <string name="create_order">Order</string>
     <string name="action_settings">Settings</string>
-    <string name="message">You should check out </string>
+    <string name="message">You should check out the palace known as</string>
 </resources>
