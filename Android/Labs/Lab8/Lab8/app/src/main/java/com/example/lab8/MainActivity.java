@@ -41,15 +41,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void findShoe(View view){
         Integer crowd = crowdSpinner.getSelectedItemPosition();
-        myShoePalace.setCoffeeShopName(crowd);
-        String suggestedShoePalace = myShoePalace.getCoffeeShopName();
-        String suggestedShoePalaceURL = myShoePalace.getCoffeeShopURL();
+        myShoePalace.setshoePalaceName(crowd);
+        String suggestedShoePalace = myShoePalace.getshoePalaceName();
+        String suggestedShoePalaceURL = myShoePalace.getshoePalaceURL();
         Log.i("shop suggested", suggestedShoePalace);
         Log.i("url suggested", suggestedShoePalaceURL);
 
         Intent intent = new Intent(this,ShoeActivity.class);
-        intent.putExtra("coffeeShopName", suggestedShoePalace);
-        intent.putExtra("coffeeShopURL", suggestedShoePalaceURL);
+        intent.putExtra("shoePalaceName", suggestedShoePalace);
+        intent.putExtra("shoePalaceURL", suggestedShoePalaceURL);
         startActivity(intent);
     }
 

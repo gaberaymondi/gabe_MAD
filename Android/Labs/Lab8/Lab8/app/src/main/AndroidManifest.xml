@@ -13,7 +13,7 @@
         </activity>
         <activity
             android:name=".ShoeActivity"
-            android:label="@string/title_activity_coffee"
+            android:label="@string/title_activity_shoe"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>

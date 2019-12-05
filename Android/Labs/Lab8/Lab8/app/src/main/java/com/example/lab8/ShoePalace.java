@@ -1,50 +1,50 @@
 package com.example.lab8;
 
 public class ShoePalace {
-    private String coffeeShopName;
-    private String coffeeShopURL;
+    private String shoePalaceName;
+    private String shoePalaceURL;
 
     private void setCoffeeInfo(Integer coffeeCrowd){
         switch (coffeeCrowd){
             case 0: //popular
-                coffeeShopName="Starbucks";
-                coffeeShopURL="https://www.starbucks.com";
+                shoePalaceName="Vans";
+                shoePalaceURL="https://www.vans.com";
                 break;
-            case 1: //cycling
-                coffeeShopName="Amante";
-                coffeeShopURL="http://www.amantecoffee.com";
+            case 1: //comfortable
+                shoePalaceName="Sketchers";
+                shoePalaceURL="https://www.skechers.com/en-us/";
                 break;
-            case 2: //hipster
-                coffeeShopName="Ozo";
-                coffeeShopURL="https://ozocoffee.com";
+            case 2: //running
+                shoePalaceName="Adidas";
+                shoePalaceURL="https://www.adidas.com/us";
                 break;
-            case 3: //tea
-                coffeeShopName="Pekoe";
-                coffeeShopURL="http://www.pekoesiphouse.com";
+            case 3: //fashion
+                shoePalaceName="Gucci";
+                shoePalaceURL="https://www.gucci.com/us/en/";
                 break;
-            case 4: //hippie
-                coffeeShopName="Trident";
-                coffeeShopURL="http://www.tridentcafe.com";
+            case 4: //basketball
+                shoePalaceName="Jordan";
+                shoePalaceURL="https://www.jordan.com/collection/";
                 break;
             default:
-                coffeeShopName="none";
-                coffeeShopURL="https://www.google.com/search?q=boulder+coffee+shops&ie=utf-8&oe=utf-8";
+                shoePalaceName="None";
+                shoePalaceURL="https://www.google.com/search?q=shoes&oq=shoes&aqs=chrome..69i57j0l4j69i61l3.2387j0j7&sourceid=chrome&ie=UTF-8";
         }
     }
 
-    public String getCoffeeShopName(){
-        return coffeeShopName;
+    public String getshoePalaceName(){
+        return shoePalaceName;
     }
 
-    public String getCoffeeShopURL(){
-        return coffeeShopURL;
+    public String getshoePalaceURL(){
+        return shoePalaceURL;
     }
 
-    public void setCoffeeShopName(Integer coffeeCrowd){
+    public void setshoePalaceName(Integer coffeeCrowd){
         setCoffeeInfo(coffeeCrowd);
     }
 
-    public void setCoffeeShopURL(Integer coffeeCrowd){
+    public void setshoePalaceURL(Integer coffeeCrowd){
         setCoffeeInfo(coffeeCrowd);
     }
 
