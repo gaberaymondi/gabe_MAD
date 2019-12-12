@@ -108,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             }
+
             //text view
             christmasGift.setText(selectGift + " would make a perfect gift");
         }
