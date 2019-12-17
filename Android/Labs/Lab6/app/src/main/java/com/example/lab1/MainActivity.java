@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void nbaChampion(View view) {
         //edittext
-
         String nameValue = name.getText().toString();
 
         //textview

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Burrito</string>
+    <string name="title">Burrito Builder</string>
+    <string name="Meat">Meat</string>
+    <string name="Veggie">Veggie</string>
+    <string name="burrito">burrito</string>
+    <string name="taco">taco</string>
+    <string name="salsa">salsa</string>
+    <string name="cheese">cheese</string>
+    <string name="sour_cream">sour cream</string>
+    <string name="guacamole">guacamole</string>
+    <string-array name="location">
+        <item>The Hill</item>
+        <item>29th Street</item>
+        <item>Pearl Street</item>
+    </string-array>
+    <string name="build">Build</string>
+    <string name="find">Find Burrito</string>
+    <string name="Itried">You should check out Chipotle!</string>
+</resources>
